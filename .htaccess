@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Bloqueia acesso direto a arquivos ocultos e sensiveis.
+RewriteRule "(^|/)\." - [F,L]
+RewriteRule ^(?:app|bootstrap|config|database|docs|resources|routes|storage)/ - [F,L,NC]
+RewriteRule \.(?:env|log|sql|md|json)$ - [F,L,NC]
+
+# Serve arquivos e diretorios reais diretamente.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Encaminha todas as demais requisicoes para o front controller.
+RewriteRule ^ index.php [L,QSA]
