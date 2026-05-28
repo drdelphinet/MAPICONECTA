@@ -155,6 +155,7 @@ O MVP ja e executavel e demonstra:
 - modulo de quizzes
 - curadoria e historico editorial
 - turismo, midias e importacoes externas
+<<<<<<< HEAD
 
 ## Observacoes para avaliacao
 
@@ -166,3 +167,5 @@ O MVP ja e executavel e demonstra:
 ## Validacao realizada
 
 Foi validada a sintaxe dos arquivos PHP principais alterados nesta etapa com `php -l`. Para validacao funcional completa, o avaliador deve seguir o fluxo de banco e execucao descrito acima.
+=======
+>>>>>>> ef283ce8d5c4e1fceb2dc07fc69b78153c1a8dc8
