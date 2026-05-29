@@ -164,8 +164,5 @@ O MVP ja e executavel e demonstra:
 - houve apoio de tecnologia de IA no processo de desenvolvimento, como recurso de assistencia tecnica e produtiva
 - o historico de commits individual dos integrantes precisa ser organizado no proprio GitHub pela equipe
 
-## Validacao realizada
-
-Foi validada a sintaxe dos arquivos PHP principais alterados nesta etapa com `php -l`. Para validacao funcional completa, o avaliador deve seguir o fluxo de banco e execucao descrito acima.
 =======
 >>>>>>> ef283ce8d5c4e1fceb2dc07fc69b78153c1a8dc8
